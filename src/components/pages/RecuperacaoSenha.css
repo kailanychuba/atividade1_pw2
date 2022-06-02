@@ -1,0 +1,77 @@
+.recuperacao {
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+    color: white;
+}
+
+.recuperacao-right { 
+    background-color: #97A3F0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    padding: 20px;
+    width: 480px;
+    height: 370px;
+    padding-top: 30px;
+}
+
+.text {
+    display: flex;
+    padding: 65px;
+    justify-content: center; 
+    text-align: center;
+    padding-top: 30px;
+}
+
+.recuperacao-InputEmail {
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 3px;
+    width: 80%;
+    height: 50px;
+}
+
+.recuperacao-InputEmail svg {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.recuperacao-InputEmail input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: #3a3a41de;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.recuperacao-right button {
+    width: 80%;
+    background-color: #ffffff;
+    color: #97A3F0;
+    font-weight: 800;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 5px;
+    border: none;
+    outline-width: 0;
+}
+
+.recuperacao-right button:hover {
+    background-color: #3800E6;
+    color: #EFF2F5;
+    cursor: pointer;
+}
